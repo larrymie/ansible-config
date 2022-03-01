@@ -14,7 +14,7 @@
 - sudo yum install java-11-openjdk-devel -y
 
 ##### open the bash profile 
-vi .bash_profile 
+vi .bash_profile
 
 ##### paste the below in the bash profile
 export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))
